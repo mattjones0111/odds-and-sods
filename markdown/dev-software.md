@@ -1,4 +1,4 @@
-Developer footprint
+# Developer footprint
 
 * Visual Studio 2019 Professional
 * ReSharper
@@ -9,3 +9,4 @@ Developer footprint
 * Docker Desktop
 * Cmndr
 * SQL Server Management Studio
+* Cascadia Code font
