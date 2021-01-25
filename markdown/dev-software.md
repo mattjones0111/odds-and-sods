@@ -18,4 +18,5 @@
 * Cmndr
 * posh-git
 * Cascadia Code font
+* Operator Mono font
 * Git for Windows
