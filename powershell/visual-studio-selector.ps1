@@ -12,6 +12,7 @@ function Get-VisualStudioCommand
     $vs15 = """${env:ProgramFiles(x86)}\Microsoft Visual Studio 14.0\Common7\IDE\devenv.exe"""
     $vs17 = """${env:ProgramFiles(x86)}\Microsoft Visual Studio\2017\Professional\Common7\IDE\devenv.exe"""
     $vs19 = """${env:ProgramFiles(x86)}\Microsoft Visual Studio\2019\Professional\Common7\IDE\devenv.exe"""
+    $vs22 = """${env:ProgramFiles(x86)}\Microsoft Visual Studio\2022\Professional\Common7\IDE\devenv.exe"""
 
     switch ($vsVersion) 
     { 
@@ -20,7 +21,8 @@ function Get-VisualStudioCommand
         '15' {$vs15} 
         '17' {$vs17} 
         '19' {$vs19}
-        default {$vs19} 
+        '22' {$vs22}
+        default {$vs22} 
     }
 }
 
