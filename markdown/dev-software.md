@@ -10,13 +10,15 @@
 ## Tools
 * Azure Storage Explorer
 * Azure Data Studio
-* SQL Server Management Studio
+* SQL Server Management Studio (?)
 * Docker Desktop
 * Postman
+* PowerToys
 
 ## Console
-* Cmndr
+* Windows Terminal
 * posh-git
+* oh-my-posh
 * Cascadia Code font
 * Operator Mono font
 * Git for Windows
