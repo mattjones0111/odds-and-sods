@@ -1,7 +1,7 @@
 # Developer installation
 
 ## IDEs
-* Visual Studio 2019 Professional
+* Visual Studio 2022 Professional
 * ReSharper
 * Editor Guidelines
 * Rider
