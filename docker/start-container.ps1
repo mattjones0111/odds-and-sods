@@ -8,6 +8,8 @@ docker run -p 5000:5000 <image>
 # postgres
 docker run -d -i --name the-db -p 5432:5432 -e POSTGRES_PASSWORD="changeit" -e POSTGRES_USER="admin" postgres:latest
 
+docker run -d --name postgres17 -e POSTGRES_USER=admin -e POSTGRES_PASSWORD='postgres' -e POSTGRES_DB=postgres -p 6543:5432 -v postgres17_data:/var/lib/postgresql/data postgres:17-alpine
+
 # sql
 docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=Password123" -p 1433:1433 --name sql2022 -h sql2022 -d mcr.microsoft.com/mssql/server:2022-latest
 

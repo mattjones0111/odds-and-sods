@@ -1,7 +1,7 @@
 # Developer installation
 
 ## IDEs
-* Visual Studio 2022 Professional
+* Visual Studio 2026 Professional
 * ReSharper
 * Editor Guidelines
 * Rider
@@ -10,10 +10,12 @@
 ## Tools
 * Azure Storage Explorer
 * Azure Data Studio
-* SQL Server Management Studio (?)
+* Claude
 * Docker Desktop
+* pgAdmin
 * Postman
 * PowerToys
+* SQL Server Management Studio (?)
 
 ## Console
 * Windows Terminal
